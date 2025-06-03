@@ -27,7 +27,7 @@ let booleanisloggedIn = Boolean(isloggedIn)
 // 1 => true
 
 let number = 33
-let stringNumber = String(number);
+let stringNumber = String(number); 
 console.log(stringNumber);
 console.log(typeof stringNumber);
 

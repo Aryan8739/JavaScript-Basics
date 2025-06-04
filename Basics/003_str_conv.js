@@ -2,7 +2,7 @@ let str1 = "hello"
 let str2 = "aryan"
 
 let str3 = str1+str2
-// console.log(str3);
+// console.log(str3); output helloaryan
 
 console.log("1" +2); //12
 console.log(1 +"2"); //12

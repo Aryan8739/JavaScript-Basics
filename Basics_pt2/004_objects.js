@@ -21,4 +21,5 @@ const RegualrUser = {
 }
 console.log(RegualrUser.fullname.userfullname.firstName);
 
-const obj1
+const obj1 ={1: "a", 2: "b", 3: "c"};
+

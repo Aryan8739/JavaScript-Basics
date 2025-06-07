@@ -12,3 +12,5 @@ scopeTest()
 // console.log(a) // 10
 // console.log(b)
 console.log(c)
+
+

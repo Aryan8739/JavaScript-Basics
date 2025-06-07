@@ -32,13 +32,13 @@ const chai = () => {
     console.log(this.username);
 }
 
-const addTwo = (num1,num2 ) => {
+const addTwo = (num1,num2 ) => { // explicit return
     return num1 + num2;
 }
 
-const addTwo1 = (num1,num2) => num1 + num2;
+const addTwo1 = (num1,num2) => num1 + num2; // return not required in implicit return
 
-const addTwo2 = (num1,num2) => (nun1 + num2);
+const addTwo2 = (num1,num2) => (nun1 + num2); // return not required in implicit return
 
 const addTwo3 = (num1,num2) => ({username: "Aryan"});
 

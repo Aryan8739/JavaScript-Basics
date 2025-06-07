@@ -18,9 +18,16 @@ function addTwoNum(number1,number2){
 let result = addTwoNum(10,20);
 // console.log("result:",result);
 
-function loginUser(username){
+function loginUser(username = "Guest"){
+    if (!username){
+        return "Undefined User";
+    }
+
     return `${username} Just Logged in`
 }
 
-console.log(loginUser("Aryan"));
+console.log(loginUser());
+// if we doesnt pass any argument to the function then it will return undefined
 
+
+ 

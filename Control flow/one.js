@@ -21,8 +21,28 @@ console.log("money");                            // Implicit return
 
 // never do like thiss
 
+if (balance > 500) {
+    console.log("You are rich");
+}else if (balance > 100) {
+    console.log("You are middle class");
+}else {
+    console.log("You are poor");
+}
 
+const userloggedIn = true;
+const debitCard = false;
+if (userloggedIn && debitCard) {
+    console.log("You can buy the product");
+}else {
+    console.log("You cannot buy the product");
+}
 
+const loggedfromgoogle = true;
+const loggedfromfacebook = false;
+
+if (loggedfromgoogle || loggedfromfacebook) {
+    console.log("You are logged in from google or facebook");
+}
 
 
 

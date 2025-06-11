@@ -20,6 +20,15 @@ map.set("FR", "France")
 
 console.log(map);
 
-for (const [key,value] of map) {
+for (const [key,value] of map) {           //Map baad me padh lena!!!
     console.log(key);
 }
+
+const myObject ={
+    g1: "NFS",
+    g2: "GTA",
+}
+
+// for (const [key,value] of myObject) {         //Cannot Iterate Object.
+//     console.log(key);
+// }

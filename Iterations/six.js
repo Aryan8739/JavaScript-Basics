@@ -1,5 +1,6 @@
-let a = 20 , b = 20;
-while(a>10){
-    console.log(b);
-    a--
-}
+const coding =['js' , 'ruby' , 'java' ]
+
+coding.foreach((item) => {
+    console.log(item);
+    
+})

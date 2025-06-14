@@ -1,6 +1,14 @@
-const coding =['js' , 'ruby' , 'java' ]
+// const coding =['js' , 'ruby' , 'java' ]
 
-coding.foreach((item) => {
-    console.log(item);
+// const values = coding.forEach((item) => {
+//     console.log(item);
     
-})
+// })
+
+// console.log(values); // undefined foreach doesnt return anything
+ 
+ 
+ 
+ 
+ array of elements that pass the test implemented by the provided function
+ 

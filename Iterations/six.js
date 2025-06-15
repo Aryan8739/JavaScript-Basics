@@ -10,5 +10,5 @@
  
  
  
- array of elements that pass the test implemented by the provided function
+
  

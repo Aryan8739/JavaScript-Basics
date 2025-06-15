@@ -3,12 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>DOM Learning</title>
+    <style> 
+    .bg{
+        background-color: #212121;
+        color : #ffff;
+    }
+    </style>
+
 </head>
-<body>
-    <div class="bg">
-        <h1 class = "heading">Dom learning....</h1>
+<body class="bg">
+    <div >
+        <h1 id = "title" class = "heading">Dom learning....
+            <span style='display:none;'> test text </span>
+        </h1>
+        
         <p class="para">This is a paragraph.</p>
     </div>
     
 </body>
 </html>
+
+<!-- title.innerText  displays all the text including hidden -->
+<!-- title.textContent only displays the text on the page -->
+
+<!-- document.querySelector()  -->
+<!-- document.querySelectorAll()  -->
+ 

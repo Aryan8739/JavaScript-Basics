@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+    </title>
+</head>
+<body>
+    <h2>Stock Images</h2>
+    <div>
+        <ul id="images">
+            <li><img  height="200px" width="200px" id="photoshop"  src="https://images.pexels.com/photos/32908779/pexels-photo-32908779.jpeg?_gl=1*132hvwk*_ga*MzE4MzYzNTU4LjE3NTA5MTg2NTU.*_ga_8JE65Q40S6*czE3NTIwNDM2MTMkbzIkZzEkdDE3NTIwNDM4MjQkajU5JGwwJGgw" alt=""></li>
+
+            <li><img  height="200px" width="200px"  id="lake" src="https://images.pexels.com/photos/32319577/pexels-photo-32319577.jpeg?_gl=1*12zojte*_ga*MzE4MzYzNTU4LjE3NTA5MTg2NTU.*_ga_8JE65Q40S6*czE3NTIwNDM2MTMkbzIkZzEkdDE3NTIwNDM4MjQkajU5JGwwJGgw" alt=""></li>
+            <li><img  height="200px" width="200px"  id="beach" src="https://images.pexels.com/photos/32588196/pexels-photo-32588196.jpeg?_gl=1*d6odld*_ga*MzE4MzYzNTU4LjE3NTA5MTg2NTU.*_ga_8JE65Q40S6*czE3NTIwNDM2MTMkbzIkZzEkdDE3NTIwNDQ0NzkkajQ3JGwwJGgw." alt=""></li>  
+             <!-- onclick="alert('Beach')" -->
+            <li><img  height="200px" width="200px"  id="mountain" src="https://images.pexels.com/photos/32723687/pexels-photo-32723687.jpeg?_gl=1*1qevc7b*_ga*MzE4MzYzNTU4LjE3NTA5MTg2NTU.*_ga_8JE65Q40S6*czE3NTIwNDM2MTMkbzIkZzEkdDE3NTIwNDQ3NDEkajI0JGwwJGgw" alt=""></li>
+
+            <li><a href="http://google.com" style="color: blue;" id="google">google</a></li>
+            </ul>
+    </div>
+</body>
+<script>
+    // document.getElementById('beach').onclick = function(){
+    //     alert('beach clicked')
+    // }
+    // AttachEvent()
+    // Jquery on
+    // //type , timestamp , defaultprevented,
+    // target , toElement, srcElement , currentTarget
+    // clientX . clientY , screenX 
+    // altkey , ctrlkey , shiftkey ,keyCode
+
+// document.getElementById('images').addEventListener('click',function (e) {
+// //  console.log(e);
+// console.log("clicked in ul")
+// },false)
+
+// document.getElementById('beach').addEventListener('click',function (e) {
+// console.log("beach clicked")
+// e.stopPropagation()
+// },false)
+
+// // Event Propgation
+// // 1. Bubbling ( false -> Bottom to top)
+// // 2. Capturing (true -> Top to Bottom)
+ 
+// document.getElementById('google').addEventListener('click' , function (e) {
+//     console.log("google clicked")
+//     e.preventDefault();
+//     e.stopPropagation();
+// },false)
+
+document.querySelector('#images').addEventListener
+("click", function(e){
+    console.log(e.target.tagName);
+    if (e.target.tagName==="IMG"){
+        console.log(e.target.id);
+        
+         let  removeIt = e.target.parentNode
+    removeIt.remove();
+    }
+
+
+   
+    // removeIt.parentNode.removeChild(removeIt)
+    
+})
+
+</script>
+
+</html>
